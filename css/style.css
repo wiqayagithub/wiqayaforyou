@@ -199,7 +199,7 @@ body {
 .features {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background-color: var(--section-background);
+  /*background-color: var(--section-background);*/
 }
 .features .container {
   display: grid;
@@ -298,8 +298,6 @@ body {
 .portfolio .portfolio-content .card {
   background-color: white;
 }
-
-
 .portfolio .portfolio-content .card img {
   width: 100%;
   height: 220px;
@@ -320,7 +318,8 @@ body {
 /* Start About */
 .about {
   padding-top: var(--section-padding);
-  padding-bottom: calc(var(--section-padding) + 60px);
+  padding-bottom: var(--section-padding);
+  background-color: var(--section-background);
 }
 .about .about-content {
   margin-top: 100px;
@@ -396,7 +395,7 @@ body {
 .contact {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background-color: var(--section-background);
+  /*background-color: var(--section-background);*/
 }
 .contact .info {
   padding-top: var(--section-padding);
