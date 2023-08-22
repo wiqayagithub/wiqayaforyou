@@ -219,7 +219,7 @@ body {
 }
 .features .feat p {
   line-height: 1.8;
-  color: #777;
+  color: var(--secondary-color);
   font-size: 17px;
 }
 /* End Features */
@@ -250,6 +250,7 @@ body {
 }
 .services .services-content .srv .text {
   flex: 1;
+  margin-right: 7px;
 }
 /*.services .services-content .srv .text h3 {
   margin: 0 0 20px;
