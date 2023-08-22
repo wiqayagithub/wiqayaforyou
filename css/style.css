@@ -198,14 +198,26 @@ body {
 /* Start Features */
 .features {
   padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
+  margin-bottom: var(--section-padding);
   /*background-color: var(--section-background);*/
+  
 }
 .features .container {
+  position: relative;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: 50% 50%;
   grid-gap: 20px;
+  height: 800px;
+  /*justify-content: center; 
+  align-items: center;*/
 }
+.features-content {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax( 1fr, 800px));
+  grid-gap: 30px;
+  margin: 0 auto;
+	}
 .features .feat {
   padding: 20px;
   text-align: center;
@@ -218,7 +230,7 @@ body {
   margin: 30px 0;
 }
 .features .feat p {
-  line-height: 1.8;
+  height: 122px;
   color: var(--secondary-color);
   font-size: 17px;
 }
