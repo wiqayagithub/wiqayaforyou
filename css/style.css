@@ -154,10 +154,15 @@ body {
 .landing {
   background-image: url(../images/landing.png);
   background-size: cover;
-  background-repeat: repeat;
-  height: 100vh;
+  background-repeat: no-repeat;
+  min-height: 100vh;
   position: relative;
 }
+@media (min-width: 979px) {
+	.landing {
+		min-height: 360vh;
+		}
+	}
 .landing .overlay{
 	position: absolute;
 	left: 0;
