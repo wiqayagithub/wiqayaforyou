@@ -154,15 +154,14 @@ body {
 .landing {
   background-image: url(../images/landing.png);
   background-size: cover;
-  background-repeat: no-repeat;
   min-height: 100vh;
   position: relative;
 }
-@media (min-width: 979px) {
+/*@media (min-width: 979px) {
 	.landing {
 		min-height: 360vh;
 		}
-	}
+	}*/
 .landing .overlay{
 	position: absolute;
 	left: 0;
@@ -203,26 +202,16 @@ body {
 /* Start Features */
 .features {
   padding-top: var(--section-padding);
-  margin-bottom: var(--section-padding);
+  padding-bottom: var(--section-padding);
   /*background-color: var(--section-background);*/
-  
 }
 .features .container {
-  position: relative;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(1f, 1fr, 1fr));
   grid-gap: 20px;
-  height: 800px;
-  /*justify-content: center; 
-  align-items: center;*/
+  /*justify-content: space-between;
+  text-align: center;*/
 }
-.features-content {
-  position: absolute;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax( 1fr, 800px));
-  grid-gap: 30px;
-  margin: 0 auto;
-	}
 .features .feat {
   padding: 20px;
   text-align: center;
@@ -235,7 +224,7 @@ body {
   margin: 30px 0;
 }
 .features .feat p {
-  height: 122px;
+  line-height: 1.8;
   color: var(--secondary-color);
   font-size: 17px;
 }
@@ -309,7 +298,7 @@ body {
 }
 .portfolio .portfolio-content {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(1fr, 1fr, 1fr);
   grid-gap: 30px;
   margin-top: 80px;
 }
@@ -324,13 +313,16 @@ body {
   padding: 20px;
 }
 .portfolio .portfolio-content .card .info h3 {
-  margin: 0;
+  margin: 0 auto;
+  margin-bottom: 40px;
   color: var(--main-color);
+  font-size: 40px;
 }
 .portfolio .portfolio-content .card .info p {
   color: var(--secondary-color);
   line-height: 1.6;
   margin-bottom: 0;
+  font-size: 25px;
 }
 /* End Portfolio */
 /* Start About */
