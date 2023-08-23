@@ -161,7 +161,7 @@ body {
 .landing {
 	position: relative;
 	width: 100%;
-	height: calc(100% - 85px);
+	height: calc(100vh - 85px);
 	}
 .landing img {
 	position: absolute;
