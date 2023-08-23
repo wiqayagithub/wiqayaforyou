@@ -154,15 +154,10 @@ body {
 .landing {
   background-image: url(../images/landing.png);
   background-size: cover;
-  min-height: 100vh;
+  min-height: calc(100vh - 85px);
   position: relative;
 }
-/*@media (min-width: 979px) {
-	.landing {
-		min-height: 360vh;
-		}
-	}*/
-.landing .overlay{
+.landing .overlay {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -173,7 +168,7 @@ body {
 .landing .intro-text {
   position: absolute;
   left: 50%;
-  top: 25%;
+  top: 35%;
   text-align: center;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -266,8 +261,10 @@ body {
   color: var(--secondary-color);
   font-weight: 300;
   line-height: 1.6;
+  font-size: 20px;
 }
 .services .services-content .image {
+  justify-content: center;
   text-align: center;
   position: relative;
 }
