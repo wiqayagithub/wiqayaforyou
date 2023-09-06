@@ -436,9 +436,6 @@ body {
   padding-bottom: var(--section-padding);
   text-align: center;
 }
-.contact .info img {
-	width: 160px;
-	}
 .contact .info .label {
   font-size: 35px;
   font-weight: 800;
@@ -460,15 +457,15 @@ body {
   font-size: 16px;
 }
 .contact .info .social i {
-  margin-left: 10px;
+  margin-left: 5px;
   color: var(--secondary-color);
 }
 .contact .info .social a {
-	font-size: 25px;
+  font-size: 25px;
   font-weight: 800;
   text-decoration: none;
   color: var(--secondary-color);
-	}
+}
 @media (max-width: 767px) {
   .contact .info .label,
   .contact .info .link {
