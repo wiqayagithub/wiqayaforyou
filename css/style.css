@@ -41,7 +41,7 @@ body {
 /* Large */
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1320px;
   }
 }
 /* End Global Rules */
@@ -342,11 +342,11 @@ body {
   margin-bottom: 0;
   font-size: 20px;
 }
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
 .portfolio .portfolio-content .m-t-card {
 	display: none;
 	}
-}
+}*/
 /* End Portfolio */
 /* Start About */
 .about {
