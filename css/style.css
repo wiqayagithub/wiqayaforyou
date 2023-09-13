@@ -326,8 +326,8 @@ body {
   background-color: white;
   min-height: 436px;
   min-width: 330px;
-  max-height: 436px;
-  max-width: 330px;
+  /*max-height: 436px;
+  max-width: 330px;*/
 }
 .portfolio .portfolio-content .card img {
   width: 100%;
